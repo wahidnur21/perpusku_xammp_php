@@ -16,6 +16,11 @@ require('controller/islogin.php');
   <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <style>
+    .marquee{
+      
+    }
+  </style>
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
@@ -36,7 +41,7 @@ require('templet/sidebar.php');
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-8">
-            <marquee><h1 class="m-0" style="color : red">Buku adalah jendela dunia</h1></marquee>
+            <marquee><h1 class="m-0" style="color : red; text-shadow : 0px 0px 10px green;">Buku adalah jendela dunia</h1></marquee>
           </div><!-- /.col -->
           <div class="col-sm-4">
             <ol class="breadcrumb float-sm-right">
